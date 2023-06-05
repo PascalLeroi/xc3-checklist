@@ -1,7 +1,7 @@
-# [Xenoblade Chronicles 2 Completion Checklist](https://r52.github.io/xc2-checklist/)
+# [Xenoblade Chronicles 3 Completion Checklist](https://pascalleroi.github.io/xc3-checklist/)
 
-A Xenoblade Chronicles 2 Completion Checklist for completionists.
+A Xenoblade Chronicles 3 Completion Checklist for completionists.
 
-For online access, use https://r52.github.io/xc2-checklist/
+For online access, use https://pascalleroi.github.io/xc3-checklist/
 
 Click on the rows to check them off. Progress is saved locally on your browser using HTML5 Local Storage.
