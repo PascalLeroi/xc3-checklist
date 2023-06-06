@@ -1,6 +1,6 @@
 var highlight = "table-success";
 
-var store = JSON.parse(localStorage.getItem("xc2-checklist"));
+var store = JSON.parse(localStorage.getItem("xc3-checklist"));
 
 if (store == null) {
     store = new Set();
@@ -9,7 +9,7 @@ if (store == null) {
 }
 
 function saveStore() {
-    localStorage.setItem("xc2-checklist", JSON.stringify([...store]));
+    localStorage.setItem("xc3-checklist", JSON.stringify([...store]));
 }
 
 function resetAll() {
@@ -62,12 +62,12 @@ function importProgress() {
     }
 
     // success
-    localStorage.setItem("xc2-checklist", jstr);
+    localStorage.setItem("xc3-checklist", jstr);
     $("#importModal").modal('hide');
     $("#import-success").collapse('show');
 }
 
-var tables = ["quests", "quests-dlc", "quests-blade", "blades", "blades-ng", "blades-dlc", "shopdeeds", "uniquemonsters", "hearttoheart", "mercmissions", "secretareas", "expman", "bspon", "foorara", "doubloons"];
+var tables = ["quests", "quests-dlc", "quests-blade", "blades", "blades-ng", "blades-dlc", "mananascook", "shopdeeds", "uniquemonsters", "hearttoheart", "mercmissions", "secretareas", "expman", "bspon", "foorara", "doubloons"];
 var defs = {
     "quests-fil": true,
     "quests-col": [{
@@ -291,6 +291,43 @@ var defs = {
             title: 'Element',
             sortable: true,
             filterControl: 'select',
+            filterStrictSearch: true
+        },
+        {
+            field: 'acquisition',
+            title: 'Acquisition',
+            sortable: true,
+            filterControl: 'input',
+            filterStrictSearch: false
+        }
+    ],
+	"mananascook-fil": true,
+    "mananascook-col": [{
+            field: 'name',
+            title: 'Name',
+            sortable: true,
+            filterControl: 'input',
+            filterStrictSearch: false
+        },
+        {
+            field: 'effect',
+            title: 'Effect',
+            sortable: true,
+            filterControl: 'input',
+            filterStrictSearch: true
+        },
+        {
+            field: 'itemrequirements',
+            title: 'Item Requirements',
+            sortable: true,
+            filterControl: 'input',
+            filterStrictSearch: false
+        },
+        {
+            field: 'value',
+            title: 'Value',
+            sortable: true,
+            filterControl: 'input',
             filterStrictSearch: true
         },
         {

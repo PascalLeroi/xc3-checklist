@@ -4757,9 +4757,9 @@
             "name": "Manana's Battle Soup",
             "effect": "EXP Boost 5%, CP Boost 5%",
             "availability": "Default",
-            "item requirements": "Glitter Radish, Comet Carrot, Bunnit Meat",
+            "itemrequirements": "Glitter Radish, Comet Carrot, Bunnit Meat",
             "value": "2, 2, 1",
-            "where to get": "Tableland Ferronis Hulk Fabricator, Desert Ferronis Hulk Fabricator, Sycophantic Lilith",
+            "acquisition": "Tableland Ferronis Hulk Fabricator, Desert Ferronis Hulk Fabricator, Sycophantic Lilith",
             "uid": "cook_1"
         }
     ]
