@@ -302,42 +302,38 @@ var defs = {
         }
     ],
 	"mananascook-fil": true,
-    "mananascook-col": [{
-            field: 'name',
-            title: 'Name',
-            sortable: true,
-            filterControl: 'input',
-            filterStrictSearch: false
-        },
-        {
-            field: 'effect',
-            title: 'Effect',
-            sortable: true,
-            filterControl: 'input',
-            filterStrictSearch: true
-        },
-        {
-            field: 'itemrequirements',
-            title: 'Item Requirements',
-            sortable: true,
-            filterControl: 'input',
-            filterStrictSearch: false
-        },
-        {
-            field: 'value',
-            title: 'Value',
-            sortable: true,
-            filterControl: 'input',
-            filterStrictSearch: true
-        },
-        {
-            field: 'acquisition',
-            title: 'Acquisition',
-            sortable: true,
-            filterControl: 'input',
-            filterStrictSearch: false
-        }
-    ],
+	"mananascook-col": [{
+	        field: 'name',
+	        title: 'Name',
+	        sortable: true,
+	        filterControl: 'input',
+	        filterStrictSearch: false
+	    }, {
+	        field: 'effect',
+	        title: 'Effect',
+	        sortable: true,
+	        filterControl: 'input',
+	        filterStrictSearch: true
+	    }, {
+	        field: 'itemrequirements',
+	        title: 'Item Requirements',
+	        sortable: true,
+	        filterControl: 'input',
+	        filterStrictSearch: false
+	    }, {
+	        field: 'value',
+	        title: 'Value',
+	        sortable: true,
+	        filterControl: 'input',
+	        filterStrictSearch: true
+	    }, {
+	        field: 'acquisition',
+	        title: 'Acquisition',
+	        sortable: true,
+	        filterControl: 'input',
+	        filterStrictSearch: false
+	    }
+	],
     "shopdeeds-fil": true,
     "shopdeeds-col": [{
             field: 'shop',
